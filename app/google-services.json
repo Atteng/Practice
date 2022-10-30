@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "230681786965",
+    "project_id": "afit-student-companion",
+    "storage_bucket": "afit-student-companion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230681786965:android:4d97dda01a6a51314c72dc",
+        "android_client_info": {
+          "package_name": "com.example.afitstudentcompanion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230681786965-286osk1ia3l0n61jhvm0q7159spc2lsi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.afitstudentcompanion",
+            "certificate_hash": "59821773b3d9add23de3927ef16a920977c0848f"
+          }
+        },
+        {
+          "client_id": "230681786965-40siul9ilirdv45q7ragvk60vtc35i4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_l7tmHFtQV2GbNqrru2vfINE_v-DurF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230681786965-40siul9ilirdv45q7ragvk60vtc35i4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

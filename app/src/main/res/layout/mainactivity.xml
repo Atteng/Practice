@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/backgroundimage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="-10dp"
@@ -15,15 +16,37 @@
         android:layout_marginEnd="-10dp"
         android:layout_marginBottom="360dp"
         android:contentDescription="@string/image-file"
-        android:src="@drawable/LogonImage1"
+        android:src="@drawable/logonimage1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/backgroundwhite"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/teal_200"
+        android:background="#3854A4"
+        android:layout_marginTop="650dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/backgroundblue"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#ffff"
         android:layout_marginTop="420dp" />
+
+    <TextView
+        android:id="@+id/mainscreentext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#3854A4"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginBottom="160dp"/>
 
 
 </RelativeLayout>
